@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<trainings>
+    <training>
+        <id>montana-201605-00</id>
+        <names>
+            <name>montana 201605 - week 0</name>
+            <name locale="cs">montana 201605 - týden 0</name>
+        </names>
+        <descriptions>
+            <description>
+				Preparation phase - mostly only for those who are starting hanging trainings or are getting back after long break.
+            </description>
+            <description locale="cs">
+				Přípravná fáze. Vhodná pro ty, kteří s tréninky visů začínají nebo se vrací podlouhé době.
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercise>
+                <id>montana-201605-smallest-startup</id>
+                <overrides>
+                    <time>10</time>
+                    <iterations>2</iterations>
+                </overrides>
+            </exercise>
+            <exercise>
+                <id>montana-201605-smallest-startup</id>
+                <overrides>
+                    <time>10</time>
+                    <iterations>3</iterations>
+                </overrides>
+            </exercise>        
+            <exercise>
+                <id>montana-201605-smallest-startup</id>
+                <overrides>
+                    <time>10</time>
+                    <iterations>4</iterations>
+                </overrides>
+            </exercise>    
+            <exercise>
+                <id>montana-201605-smallest-startup</id>
+                <overrides>
+                    <time>10</time>
+                    <iterations>4</iterations>
+                </overrides>
+            </exercise>    
+        </exercises>    
+    </training>
+</trainings>

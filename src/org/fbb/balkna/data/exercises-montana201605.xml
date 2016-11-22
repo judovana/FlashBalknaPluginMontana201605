@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises>
+    <exercises-set>
+        <set-defaults>
+            <time>10</time>
+            <pause>10</pause>
+            <iterations>10</iterations>
+            <rest>180</rest>
+        </set-defaults>
+        <exercise>
+            <id>montana-201605-smallest-startup</id>
+            <names>
+                <name>smallest one (6mm-25mm), no weight</name>
+                <name locale="cs">nejmenší možná (6mm-25mm), bez závaží</name>
+            </names>
+            <images>
+                <image>montana01.jpg</image>
+            </images>
+        </exercise>
+        <exercise>
+            <id>montana-201605-smallest</id>
+            <names>
+                <name>smallest one (6mm-20mm), no weight</name>
+                <name locale="cs">nejmenší možná (6mm-20mm), bez závaží</name>
+            </names>
+            <images>
+                <image>montana01.jpg</image>
+            </images>
+        </exercise>
+        <exercise>
+            <id>montana-201605-smallest-weight</id>
+            <names>
+                <name>18mm-25mm + weight 0%-50% of body mass</name>
+                <name locale="cs">18mm-25mm + závaží 0%-50% telesné hmotnosti</name>
+            </names>
+            <images>
+                <image>montana02.jpg</image>
+            </images>
+            <descriptions>
+                <description>Without weight, this is comfortable hang, where you can hang for minute or even longer</description>
+                <description locale="cs">Bez závaží by toto býval byl pohodlný vis kde vydržíte minutu i déle</description>            
+            </descriptions>
+        </exercise>
+    </exercises-set>
+</exercises>
