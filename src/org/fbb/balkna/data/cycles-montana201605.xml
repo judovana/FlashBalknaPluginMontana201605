@@ -1,47 +1,350 @@
 <cycles>
-<!-- when time shift is on, it is applied on top of cycles change-->
-	<cycle>
-		<id>Montana-201605-cycle</id>
-		<names>
-			<name>Montana 2016-05 30(34) weeks long term cycle</name>
-			<name locale="cs">>Montana 2016-05 30(34) dlouhodobý cyklus</name>
-		</names>
-		<trainings>
-			<training>
-				<id>montana-201605-00</id>
-				<changes>
-					<!-- eg when original iterations were 10, and you put 0.5 there, then this cycle will run 5 iteration-->
-					<!-- eg when original time was  were 15, and you put 0.3 there, then this cycle will run only 5 seconds-->
-					<time>1</time> <!--floating number, part of seconds -->
-					<pause>1</pause> <!--floating number, part of seconds -->
-					<iterations>1</iterations> <!--floating number, part of iterations -->
-					<rest>1</rest> <!-- floating number, part of rest after whole exercise-->
-				</changes>
-			</training>
-			<training>
-				<id>montana-201605-00</id>
-				<changes>
-					<time>1</time>
-					<pause>0.8</pause>
-					<iterations>1</iterations>
-					<rest>1</rest>
-				</changes>
-			</training>
-			<training>
-				<id>montana-201605-00</id>
-				<changes>
-					<time>1.2</time>
-					<pause>0.8</pause>
-					<iterations>1</iterations>
-					<rest>1</rest>
-				</changes>
-				<suggestbreak>
+    <!-- when time shift is on, it is applied on top of cycles change-->
+    <cycle>
+        <id>Montana-201605-cycle</id>
+        <names>
+            <name>Montana 2016-05 30(34) weeks long long-term cycle, climbing recommanded</name>
+            <name locale="cs">>Montana 2016-05 30(34) týdnů dlouhý, dlouhodobý cyklus, prokládat lezením doporučeno</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set weight and minimal hold on your own! Note that times of hanging are decreasing, so the weight should be increasing and minimal hold decreasing acordingly!
+            </description>
+            <description locale="cs">
+                Minimální chyt a váhu závaží si  musíš určit! Povšimni si že délka visu klesá, proto musí váha zaváží adekvátně stoupat a minimální chyt se adekvátně zmenšovat!
+            </description>            
+        </descriptions>
+        <trainings>
+            <training>
+                <id>montana-201605-01</id>
+                <suggestbreak>
                     <descriptions>
-                        <description>day or two</description>
-                        <description locale="cs">Den či dva</description>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
                     </descriptions>
                 </suggestbreak>
-			</training>
-		</trainings>
-	</cycle>
+            </training>
+            
+            <training>
+                <id>montana-201605-02</id>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+            <training>
+                <id>montana-201605-03+04</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-03+04</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+            
+            
+            <training>
+                <id>montana-201605-06</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-07</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+            
+            
+            <training>
+                <id>montana-201605-11</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-12</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+            
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+
+            <training>
+                <id>montana-201605-06</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-07</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+            
+            
+            <training>
+                <id>montana-201605-11</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-12</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+                <changes>
+                    <time>0.8</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+
+            <training>
+                <id>montana-201605-06</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-07</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-08+09</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+            
+            
+            <training>
+                <id>montana-201605-11</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-12</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>two or three days</description>
+                        <description locale="cs">dva až tři dny</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <training>
+                <id>montana-201605-13+14</id>
+                <changes>
+                    <time>0.5</time>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>week</description>
+                        <description locale="cs">týden</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            
+
+        </trainings>
+    </cycle>
 </cycles>

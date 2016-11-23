@@ -2,48 +2,201 @@
 
 <trainings>
     <training>
-        <id>montana-201605-00</id>
+        <id>montana-201605-01</id>
         <names>
-            <name>montana 201605 - week 0</name>
-            <name locale="cs">montana 201605 - týden 0</name>
+            <name>montana 201605 - warm up week (2)</name>
+            <name locale="cs">montana 201605 - zahřívací týden (2)</name>
         </names>
         <descriptions>
             <description>
-				Preparation phase - mostly only for those who are starting hanging trainings or are getting back after long break.
+                Preparation phase - mostly only for those who are starting hanging trainings or are getting back after long break.
             </description>
             <description locale="cs">
-				Přípravná fáze. Vhodná pro ty, kteří s tréninky visů začínají nebo se vrací podlouhé době.
+                Přípravná fáze. Vhodná pro ty, kteří s tréninky visů začínají nebo se vrací podlouhé době.
             </description>            
         </descriptions>
         <exercises>
-            <exercise>
-                <id>montana-201605-smallest-startup</id>
-                <overrides>
-                    <time>10</time>
-                    <iterations>2</iterations>
-                </overrides>
-            </exercise>
-            <exercise>
-                <id>montana-201605-smallest-startup</id>
-                <overrides>
-                    <time>10</time>
-                    <iterations>3</iterations>
-                </overrides>
-            </exercise>        
-            <exercise>
-                <id>montana-201605-smallest-startup</id>
-                <overrides>
-                    <time>10</time>
-                    <iterations>4</iterations>
-                </overrides>
-            </exercise>    
-            <exercise>
-                <id>montana-201605-smallest-startup</id>
-                <overrides>
-                    <time>10</time>
-                    <iterations>4</iterations>
-                </overrides>
-            </exercise>    
+            <exercises-set count="2">
+                <exercise>
+                    <id>montana-201605-smallest-startup</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-02</id>
+        <names>
+            <name>montana 201605 - warm up week (3)</name>
+            <name locale="cs">montana 201605 - zahřívací týden (3)</name>
+        </names>
+        <descriptions>
+            <description>
+                Preparation phase - mostly only for those who are starting hanging trainings or are getting back after long break.
+            </description>
+            <description locale="cs">
+                Přípravná fáze. Vhodná pro ty, kteří s tréninky visů začínají nebo se vrací podlouhé době.
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="3">
+                <exercise>
+                    <id>montana-201605-smallest-startup</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-03+04</id>
+        <names>
+            <name>montana 201605 - warm up week (4)</name>
+            <name locale="cs">montana 201605 - zahřívací týden (4)</name>
+        </names>
+        <descriptions>
+            <description>
+                Preparation phase - mostly only for those who are starting hanging trainings or are getting back after long break.
+            </description>
+            <description locale="cs">
+                Přípravná fáze. Vhodná pro ty, kteří s tréninky visů začínají nebo se vrací podlouhé době.
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="4">
+                <exercise>
+                    <id>montana-201605-smallest-startup</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-06</id>
+        <names>
+            <name>montana 201605 - weight week (3)</name>
+            <name locale="cs">montana 201605 - týden se závažím (3)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set weight on your own!
+            </description>
+            <description locale="cs">
+                Minimální váhu závaží si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="3">
+                <exercise>
+                    <id>montana-201605-weight</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-07</id>
+        <names>
+            <name>montana 201605 - weight week (4)</name>
+            <name locale="cs">montana 201605 - týden se závažím (4)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set weight on your own!
+            </description>
+            <description locale="cs">
+                Minimální váhu závaží si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="4">
+                <exercise>
+                    <id>montana-201605-weight</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-08+09</id>
+        <names>
+            <name>montana 201605 - weight week (5)</name>
+            <name locale="cs">montana 201605 - týden se závažím (5)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set weight on your own!
+            </description>
+            <description locale="cs">
+                Minimální váhu závaží si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="5">
+                <exercise>
+                    <id>montana-201605-weight</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-11</id>
+        <names>
+            <name>montana 201605 - smallest week (3)</name>
+            <name locale="cs">montana 201605 - týden na minimální liště (3)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set minimal hold on your own!
+            </description>
+            <description locale="cs">
+                Minimální chyt si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="3">
+                <exercise>
+                    <id>montana-201605-smallest</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-12</id>
+        <names>
+            <name>montana 201605 - smallest week (4)</name>
+            <name locale="cs">montana 201605 - týden na minimální liště (4)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set minimal hold on your own!
+            </description>
+            <description locale="cs">
+                Minimální chyt si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="4">
+                <exercise>
+                    <id>montana-201605-smallest</id>
+                </exercise>
+            </exercises-set>
+        </exercises>    
+    </training>
+    <training>
+        <id>montana-201605-13+14</id>
+        <names>
+            <name>montana 201605 - smallest week (5)</name>
+            <name locale="cs">montana 201605 - týden na minimální liště (5)</name>
+        </names>
+        <descriptions>
+            <description>
+                You need to set minimal hold on your own!
+            </description>
+            <description locale="cs">
+                Minimální chyt si  musíš určit!
+            </description>            
+        </descriptions>
+        <exercises>
+            <exercises-set count="5">
+                <exercise>
+                    <id>montana-201605-smallest</id>
+                </exercise>
+            </exercises-set>
         </exercises>    
     </training>
 </trainings>

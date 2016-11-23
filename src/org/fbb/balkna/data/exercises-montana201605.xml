@@ -14,6 +14,14 @@
                 <name>smallest one (6mm-25mm), no weight</name>
                 <name locale="cs">nejmenší možná (6mm-25mm), bez závaží</name>
             </names>
+            <descriptions>
+                <description>
+                    That it is 10 exercises in set with pause of 10 seconds was not included in original article. Rest and number of sets was.
+                </description>
+                <description locale="cs">
+                    Fakt že je to 10 cviků v sérii s 10 sekundovou pauzou neylo v článku uvedeno. Opočinek mezi seriemi a počet sérií byl.
+                </description>            
+            </descriptions>
             <images>
                 <image>montana01.jpg</image>
                 <image>montana02.jpg</image>
@@ -26,6 +34,14 @@
                 <name>smallest one (6mm-20mm), no weight</name>
                 <name locale="cs">nejmenší možná (6mm-20mm), bez závaží</name>
             </names>
+            <descriptions>
+                <description>
+                    That it is 10 exercises in set with pause of 10 seconds was not included in original article. Rest and number of sets was.
+                </description>
+                <description locale="cs">
+                    Fakt že je to 10 cviků v sérii s 10 sekundovou pauzou neylo v článku uvedeno. Opočinek mezi seriemi a počet sérií byl.
+                </description>            
+            </descriptions>
             <images>
                 <image>montana01.jpg</image>
                 <image>montana02.jpg</image>
@@ -33,15 +49,23 @@
             </images>
         </exercise>
         <exercise>
-            <id>montana-201605-smallest-weight</id>
+            <id>montana-201605-weight</id>
             <names>
                 <name>18mm-25mm + weight 0%-50% of body mass</name>
                 <name locale="cs">18mm-25mm + závaží 0%-50% telesné hmotnosti</name>
             </names>
+            <descriptions>
+                <description>
+                    That it is 10 exercises in set with pause of 10 seconds was not included in original article. Rest and number of sets was.
+                </description>
+                <description locale="cs">
+                    Fakt že je to 10 cviků v sérii s 10 sekundovou pauzou neylo v článku uvedeno. Opočinek mezi seriemi a počet sérií byl.
+                </description>            
+            </descriptions>
             <images>
                 <image>montana11.jpg</image>
-                <image>montana22.jpg</image>
-                <image>montana33.jpg</image>
+                <image>montana12.jpg</image>
+                <image>montana13.jpg</image>
             </images>
             <descriptions>
                 <description>Without weight, this is comfortable hang, where you can hang for minute or even longer</description>
